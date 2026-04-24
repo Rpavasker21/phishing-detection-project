@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Phishing Shield",
+  "version": "1.0",
+  "description": "Analyze the current page or highlighted text for potential phishing threats.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Scan Page"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ]
+}
